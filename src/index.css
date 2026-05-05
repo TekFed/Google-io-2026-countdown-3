@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-io-blue: #4285F4;
+  --color-io-red: #EA4335;
+  --color-io-yellow: #FBBC04;
+  --color-io-green: #34A853;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-50 overflow-hidden;
+  }
+}
