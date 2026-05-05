@@ -5,7 +5,6 @@
 
 import { motion, AnimatePresence } from 'motion/react';
 import { NeuralField } from './components/NeuralField';
-import { CountdownTimer } from './components/CountdownTimer';
 import { Sparkles, Cpu, BrainCircuit } from 'lucide-react';
 
 export default function App() {
@@ -21,9 +20,6 @@ export default function App() {
 
       {/* Interactive Particles */}
       <NeuralField />
-
-      {/* Global Timer (Top Left) */}
-      <CountdownTimer />
 
       {/* Main Content */}
       <div className="relative z-10 text-center">
